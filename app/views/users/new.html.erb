@@ -1,0 +1,57 @@
+<!-- app/views/users/new.html.erb -->
+<html class="login">
+  <head>
+    <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Press+Start+2P&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <%= stylesheet_link_tag 'edit_service', media: 'all' %>
+  </head>
+  <body>
+    <div class="login-container">
+      <center><h1 class="connect4">connect4</h1></center>
+      <hr class="connect4-hr">
+      <h1>Sign Up</h1>
+
+      <%= form_with model: @user, url: signup_path, local: true do |form| %>
+        <div>
+          <%= form.label :fname, "First Name" %>
+          <%= form.text_field :fname %>
+        </div>
+        <div>
+          <%= form.label :lname, "Last Name" %>
+          <%= form.text_field :lname %>
+        </div>
+        <div>
+          <%= form.label :email %>
+          <%= form.email_field :email %>
+        </div>
+        <div>
+          <%= form.label :username %>
+          <%= form.text_field :username %>
+        </div>
+        <div>
+          <%= form.label :password %>
+          <%= form.password_field :password %>
+        </div>
+        <div>
+          <%= form.label :password_confirmation, "Confirm Password" %>
+          <%= form.password_field :password_confirmation %>
+        </div>
+        <% if @user.errors.any? %>
+          <div class="flash-error">
+            <% @user.errors.full_messages.each do |message| %>
+              <p><%= message %></p>
+            <% end %>
+          </div>
+        <% end %>
+        <div>
+          <%= form.submit 'Sign Up', class: 'button' %>
+        </div>
+        <div>
+          <%= link_to 'Back to Login', login_path %>
+        </div>
+      <% end %>
+    </div>
+  </body>
+</html>

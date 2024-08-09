@@ -11,6 +11,9 @@ Rails.application.routes.draw do
 
   root 'home#index'
 
+  get '/signup', to: 'users#new'  # Route for the sign-up form
+  post '/signup', to: 'users#create'  # Route to handle form submission
+
   get '/login', to: 'sessions#new', as: 'sessions_new'
   post '/login', to: 'sessions#create'
   get 'logout', to: 'sessions#destroy'

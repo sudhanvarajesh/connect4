@@ -18,7 +18,14 @@ user = [{
   email: 'johndoe@gmail.com', 
   password: 'password', 
   about: 'This is an about section',
-  username: 'JohnDoe',
+  username: 'JohnDoe'
+}, {
+  fname: 'sudhanva',
+  lname: 'rajesh', 
+  email: 'sudhanva0001@gmail.com', 
+  password: 'password', 
+  about: 'This is an about section', 
+  username: 'sudhanvarajesh'
 }]
 
 User.create(user);

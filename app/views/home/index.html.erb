@@ -16,6 +16,7 @@
       
       
       <%= link_to 'Sign In', login_path, class: 'button' %>
+      <%= link_to 'Sign Up', signup_path, class: 'button' %>
       <% flash.each do |key, message|%>
         <div class="alert">
           <%= message %>
@@ -24,4 +25,3 @@
   </div>
 </body>
 </html>
-
