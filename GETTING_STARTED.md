@@ -1,7 +1,7 @@
 ## Running Locally for Development
 
-1. ```git clone https://github.com/tamu-edu-students/TopMate-Clone.git```
-2. ```cd topmate-clone```
+1. ```git clone https://github.com/sudhanvarajesh/connect4.git```
+2. ```cd connect4```
 3. Install Ruby and Rails
    1. [Ruby Intro](https://github.com/tamu-edu-students/hw-ruby-intro)
    2. [Ruby Docs](https://ruby-doc.org/)
