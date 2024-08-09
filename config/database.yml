@@ -1,0 +1,28 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: topmate_clone_development
+
+  host: <%= ENV["TOPMATE_DB_DEV_HOST"] %>
+  port: <%= ENV["TOPMATE_DB_DEV_PORT"] %>
+  username: <%= ENV["TOPMATE_DB_DEV_USER"] %>
+  password: <%= ENV["TOPMATE_DB_DEV_PASS"] %>
+
+test:
+  <<: *default
+  database: topmate_clone_test
+
+  host: <%= ENV["TOPMATE_DB_DEV_HOST"] %>
+  port: <%= ENV["TOPMATE_DB_DEV_PORT"] %>
+  username: <%= ENV["TOPMATE_DB_DEV_USER"] %>
+  password: <%= ENV["TOPMATE_DB_DEV_PASS"] %>
+
+production:
+  <<: *default
+  database: topmate_clone_production
+  username: topmate_clone
+  password: <%= ENV["TOPMATE_CLONE_DATABASE_PASSWORD"] %>
