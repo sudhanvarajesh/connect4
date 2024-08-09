@@ -23,7 +23,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/a211961/Desktop/School Stuff/A&amp;M Fall 2023/Software Engineering/TopMate-Clone&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/a211961/Desktop/School Stuff/A&amp;M Fall 2023/Software Engineering/connect4&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -42,22 +42,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.TopMate-Clone">
+  <component name="RunManager" selected="Rails.connect4">
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="TopMate-Clone" />
+      <module name="connect4" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="TopMate-Clone" />
+      <module name="connect4" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopMate-Clone" type="RailsRunConfigurationType" factoryName="Rails">
-      <module name="TopMate-Clone" />
+    <configuration name="connect4" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="connect4" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
@@ -82,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spec: TopMate-Clone" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="TopMate-Clone" />
+    <configuration name="spec: connect4" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="connect4" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
@@ -107,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test: TopMate-Clone" type="RakeRunConfigurationType" factoryName="Rake">
-      <module name="TopMate-Clone" />
+    <configuration name="test: connect4" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="connect4" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />

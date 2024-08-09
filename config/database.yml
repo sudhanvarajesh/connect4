@@ -5,24 +5,24 @@ default: &default
 
 development:
   <<: *default
-  database: topmate_clone_development
+  database: connect4_development
 
-  host: <%= ENV["TOPMATE_DB_DEV_HOST"] %>
-  port: <%= ENV["TOPMATE_DB_DEV_PORT"] %>
-  username: <%= ENV["TOPMATE_DB_DEV_USER"] %>
-  password: <%= ENV["TOPMATE_DB_DEV_PASS"] %>
+  host: <%= ENV["connect4_DB_DEV_HOST"] %>
+  port: <%= ENV["connect4_DB_DEV_PORT"] %>
+  username: <%= ENV["connect4_DB_DEV_USER"] %>
+  password: <%= ENV["connect4_DB_DEV_PASS"] %>
 
 test:
   <<: *default
-  database: topmate_clone_test
+  database: connect4_test
 
-  host: <%= ENV["TOPMATE_DB_DEV_HOST"] %>
-  port: <%= ENV["TOPMATE_DB_DEV_PORT"] %>
-  username: <%= ENV["TOPMATE_DB_DEV_USER"] %>
-  password: <%= ENV["TOPMATE_DB_DEV_PASS"] %>
+  host: <%= ENV["connect4_DB_DEV_HOST"] %>
+  port: <%= ENV["connect4_DB_DEV_PORT"] %>
+  username: <%= ENV["connect4_DB_DEV_USER"] %>
+  password: <%= ENV["connect4_DB_DEV_PASS"] %>
 
 production:
   <<: *default
-  database: topmate_clone_production
-  username: topmate_clone
-  password: <%= ENV["TOPMATE_CLONE_DATABASE_PASSWORD"] %>
+  database: connect4_production
+  username: connect4
+  password: <%= ENV["connect4_DATABASE_PASSWORD"] %>

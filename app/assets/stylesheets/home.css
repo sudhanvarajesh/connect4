@@ -17,7 +17,7 @@ body {
     max-width: 400px;
 }
 
-.login-container .topmate{
+.login-container .connect4{
   font-family: 'Playpen Sans', cursive;
   text-align: center;
   font-size: 44px;
@@ -29,7 +29,7 @@ body {
 
 }
 
-.login-container .topmate-hr{
+.login-container .connect4-hr{
   border: 1.5px solid;
   border-radius: 0.3px;
   border-color: #e35869;

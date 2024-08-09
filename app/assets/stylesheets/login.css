@@ -61,7 +61,7 @@ body{
 }
 
 
-.topmate{
+.connect4{
   
   font-family: 'Playpen Sans', cursive;
   font-size: 44px;
@@ -70,7 +70,7 @@ body{
   margin-top: 8px;
 
 }
-.topmate-hr{
+.connect4-hr{
   border: 1.5px solid;
   border-radius: 0.5px;
   border-color: #e35869;;

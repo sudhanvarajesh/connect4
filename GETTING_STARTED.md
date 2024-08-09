@@ -1,7 +1,7 @@
 ## Running Locally for Development
 
-1. ```git clone https://github.com/tamu-edu-students/TopMate-Clone.git```
-2. ```cd topmate-clone```
+1. ```git clone https://github.com/sudhanvarajesh/connect4.git```
+2. ```cd connect4```
 3. Install Ruby and Rails
    1. [Ruby Intro](https://github.com/tamu-edu-students/hw-ruby-intro)
    2. [Ruby Docs](https://ruby-doc.org/)
@@ -10,10 +10,10 @@
    2. [MacOS](https://www.sqlshack.com/setting-up-a-postgresql-database-on-mac/)
    3. [GUI OSX/Linux/Windows](https://www.prisma.io/dataguide/postgresql/setting-up-a-local-postgresql-database)
 5. Export environment variables
-   1. ```export TOPMATE_DB_DEV_HOST=localhost```
-   2. ```export TOPMATE_DB_DEV_PORT=5432```
-   3. ```export TOPMATE_DB_DEV_USER=<your postgres username>```
-   4. ```export TOPMATE_DB_DEV_PASS=<your postgres password> ```
+   1. ```export CONNECT4_DB_DEV_HOST=localhost```
+   2. ```export CONNECT4_DB_DEV_PORT=5432```
+   3. ```export CONNECT4_DB_DEV_USER=<your postgres username>```
+   4. ```export CONNECT4_DB_DEV_PASS=<your postgres password> ```
 6. Create/migrate db’s
    1. ```rake db:create```
    2. ```rake db:migrate```
@@ -28,8 +28,8 @@
 
 ## Deploying to New Heroku App
 
-1. ```git clone git@github.com:tamu-edu-students/TopMate-Clone.git```
-2. ```cd topmate-clone```
+1. ```git clone https://github.com/sudhanvarajesh/connect4.git```
+2. ```cd connect4```
 3. Install Heroku cli
    1. [Instructions here](https://devcenter.heroku.com/articles/heroku-cli)
 4. Log into heroku
