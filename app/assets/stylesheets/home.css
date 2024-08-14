@@ -5,7 +5,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #e35869;
+    background-color: #6077c4;
   }
   
 /* Apply styles to the login container */
@@ -21,7 +21,7 @@ body {
   font-family: 'Playpen Sans', cursive;
   text-align: center;
   font-size: 44px;
-  color: #e35869;
+  color: #6077c4;
   margin-bottom: 8px;
   margin-top: 8px;
   display: block;
@@ -32,7 +32,7 @@ body {
 .login-container .connect4-hr{
   border: 1.5px solid;
   border-radius: 0.3px;
-  border-color: #e35869;
+  border-color: #6077c4;
   display: block;
 
 }
@@ -40,7 +40,7 @@ body {
 
 /* Style the button */
 .button {
-  background-color: #007bff;
+  background-color: #6077c4;
   color: #fff;
   padding: 10px 0px;
   border: none;
@@ -52,7 +52,7 @@ body {
 }
 
 .button:hover {
-  background-color: #0056b3;
+  background-color: #6077c4;
 }
   
 .alert {

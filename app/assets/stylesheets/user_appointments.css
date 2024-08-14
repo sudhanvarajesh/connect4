@@ -12,7 +12,7 @@ body {
 
 /* Styles for the navigation bar at the top */
 .navbar {
-  background-color: #e35869;
+  background-color: #6077c4;
   color: white;
   padding: 10px 20px;
   display: flex;
@@ -59,7 +59,7 @@ body {
 }
 
 .day-container-2 h2 {
-  color: #e35869;
+  color: #6077c4;
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -82,7 +82,7 @@ body {
 
 /* Style for the "Delete" button */
 .time-container-2 button {
-  background-color: #e35869;
+  background-color: #6077c4;
   color: white;
   border: none;
   border-radius: 5px;
@@ -96,7 +96,7 @@ body {
   background-color: #d04758;
 }
 .time-container-2 .button {
-  background-color: #e35869;
+  background-color: #6077c4;
   color: white;
   border: none;
   border-radius: 5px;

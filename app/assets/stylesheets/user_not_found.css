@@ -9,7 +9,7 @@ body {
 
 /* Styles for the navigation bar at the top */
 .navbar {
-  background-color: #e35869;
+  background-color: #6077c4;
   color: white;
   padding: 10px 20px;
   display: flex;
@@ -32,7 +32,7 @@ body {
   margin: 0 10px; /* Add margin to create space between links */
 }
 .return-to-dash-link {
-    color:#007bff;
+    color:#6077c4;
     border: none;
     cursor: pointer;
   }

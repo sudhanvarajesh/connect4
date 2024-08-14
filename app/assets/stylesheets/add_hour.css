@@ -8,7 +8,7 @@ body{
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #e35869;
+    background-color: #6077c4;
   }
   
   .hour-container {
@@ -43,7 +43,7 @@ body{
   }
   
   .hour-container input[type="submit"] {
-    background-color: #007bff;
+    background-color: #6077c4;
     color: #fff;
     padding: 10px 20px;
     border: none;
