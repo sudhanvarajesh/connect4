@@ -61,7 +61,7 @@ body {
 .button {
   display: inline-block;
   padding: 50px 100px;
-  background-color: #4CAF50;
+  background-color: #676d67;
   color: white;
   text-decoration: none;
   border: none;
@@ -76,7 +76,7 @@ body {
 
 .button:hover {
   transform: scale(1.1);
-  background-color: #45a049;
+  background-color: #879c88;
 }
 /* Add styles for the alert messages, buttons, and other elements as needed */
 .login-container {
